@@ -1,0 +1,65 @@
+main{
+  height: 100vh;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-area-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+textarea{
+  resize: none;
+  border-radius: 10px;
+}
+
+.text-container{
+  border-radius: 10px;
+}
+
+img{
+  width: 200px;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+code {
+  background-color: #272822;
+  color: #f8f8f2;
+  border-radius: 0.3rem;
+  padding: 4px 5px 5px;
+  white-space: nowrap;
+}
+
+pre code {
+  white-space: inherit;
+}
+
+pre {
+  background-color:#272822;
+  color: #f8f8f2;
+  padding: 5px;
+  border-radius: 0.3em;
+}
